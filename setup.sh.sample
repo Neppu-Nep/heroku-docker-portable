@@ -1,0 +1,11 @@
+wget https://example.com/latest.zip # url to zipfile of your repo (don't zip the outer folder, zip the contents)
+7z x latest.zip # change zip name
+pip install -r requirements.txt
+
+# Do your stuffs here
+# Mirror bot stuffs example
+# export MAX_DOWNLOAD_SPEED=0
+# export MAX_CONCURRENT_DOWNLOADS=3
+# chmod +x aria.sh
+# chmod +x start.sh
+# bash start.sh
